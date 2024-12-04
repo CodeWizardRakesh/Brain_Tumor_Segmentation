@@ -31,5 +31,20 @@ This project uses deep learning to accurately detect and segment brain tumors fr
   conda env create -f Environment_setup.yml --prefix ./env
   ```
 ### 4. Setup CUDA (Optional, for NVIDIA GPU Users)
-- Follow the instructions in [this]() GitHub repo for easy installation.
-  
+- Follow the instructions in [this](https://github.com/CodeWizardRakesh/tensorflow-cuda-setup) GitHub repo for easy installation.
+### 5. Activate the Environment and Train the Model
+- Activate the newly created environment
+  ``` bash
+  conda activate ./env
+  ```
+- Train the model using the following command
+  ``` bash
+  python Train.py
+  ```
+### 6. Detect Tumor
+- To run the tumor detection script, use
+  ``` bash
+  python Detect.py
+  ```
+
+*If you see this probably you are successfull in implementing this project and i hope you did it.If you encounter any issues or have questions, feel free to open an issue on this repository.*
