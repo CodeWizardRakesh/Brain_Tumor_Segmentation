@@ -47,6 +47,6 @@ This project uses deep learning to accurately detect and segment brain tumors fr
   python Detect.py
   ```
 ### The Results
-![Tumor seg]()
+![Tumor seg](https://github.com/CodeWizardRakesh/Brain_Tumor_Segmentation/blob/main/images/result.png?raw=true)
 
 *If you see this probably you are successfull in implementing this project and i hope you did it.If you encounter any issues or have questions, feel free to open an issue on this repository.*
